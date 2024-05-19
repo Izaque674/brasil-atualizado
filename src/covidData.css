@@ -1,0 +1,45 @@
+/* CovidData.css */
+.covid-data-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .states-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .state-data {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    flex: 1 0 45%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .state-data h2 {
+    color: #333;
+  }
+  
+  .state-data p {
+    color: #666;
+  }
+  
+  /* CovidData.css */
+.filter-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
